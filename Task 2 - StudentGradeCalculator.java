@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 public class Main {
 
@@ -45,7 +43,8 @@ public class Main {
                 if (marks < 0 || marks > 100) {
                     System.out.println("Error! Marks should be between 0 to 100.");
                 }
-            }while (marks<0 || marks> 100) ;
+            }
+                while (marks<0 || marks> 100) ;
             return marks;
                 }
 
