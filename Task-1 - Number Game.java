@@ -10,7 +10,7 @@ public class Main {
         int score = 0;
         boolean playAgain = true;
 
-        System.out.println("Welcome to The Guess Game!");
+        System.out.println("Guess Game!");
 
         while (playAgain) {
             int correctNumber = random.nextInt(100) + 1; 
